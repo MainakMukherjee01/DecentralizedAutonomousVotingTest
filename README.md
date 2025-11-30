@@ -52,7 +52,6 @@ Token-weighted governance contract for creating and voting on proposals.
 ## Project Structure
 
 ```
-```
 dao/
 ├── contracts/
 │   ├── DAOVoting.sol                     # Main governance contract with proposal and voting logic
@@ -76,7 +75,6 @@ dao/
 ├── QUICKSTART.md                         # Quick setup and usage guide
 ├── README.md                             # Comprehensive project documentation
 └── tsconfig.json                         # TypeScript compiler configuration
-```
 ```
 
 ## Installation
