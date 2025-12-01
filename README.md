@@ -494,7 +494,7 @@ For questions or issues:
 - Initial release
 - TestToken with ERC20Votes and ERC20Permit
 - DAOVoting with token-weighted governance
-- Comprehensive test suite (70+ tests)
+- Comprehensive test suite (150+ tests)
 - Enterprise-grade deployment infrastructure
 - Full documentation
 

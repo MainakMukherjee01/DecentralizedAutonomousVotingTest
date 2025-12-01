@@ -9,9 +9,9 @@
  * - Deployment artifact generation
  * 
  * Usage:
- *   npx hardhat run scripts/deploy-robust.js --network localhost
- *   npx hardhat run scripts/deploy-robust.js --network sepolia
- *   SKIP_VERIFICATION=true npx hardhat run scripts/deploy-robust.js --network mainnet
+ *   npx hardhat run scripts/deploy.js --network localhost
+ *   npx hardhat run scripts/deploy.js --network sepolia
+ *   SKIP_VERIFICATION=true npx hardhat run scripts/deploy.js --network mainnet
  */
 
 import hre from "hardhat";

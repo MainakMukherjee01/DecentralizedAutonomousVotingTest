@@ -4,21 +4,22 @@
   "description": "",
   "main": "index.js",
   "directories": {
-    "test": "tests"
+    "test": "test"
   },
   "scripts": {
-    "test": "hardhat test",
+    "test": "hardhat test mocha",
     "test:token": "hardhat test test/TestToken.test.js",
     "test:dao": "hardhat test test/DAOVoting.test.js",
     "test:integration": "hardhat test test/Integration.test.js",
-    "test:gas": "REPORT_GAS=true hardhat test",
+    "test:gas": "hardhat test --gas-stats",
     "test:coverage": "hardhat test --coverage",
+    "test:report": "hardhat test --gas-stats --coverage",
     "compile": "hardhat compile",
     "deploy:local": "hardhat run scripts/deploy.js --network localhost",
     "deploy:sepolia": "hardhat run scripts/deploy.js --network sepolia",
     "node": "hardhat node"
   },
-  "author": "",
+  "author": "Mainak Mukherjee",
   "license": "ISC",
   "type": "module",
   "devDependencies": {
